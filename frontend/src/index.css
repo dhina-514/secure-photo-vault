@@ -1,0 +1,28 @@
+/* Keep this very small – most styling is in App.css */
+
+/* Make sure the whole screen is covered */
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+/* Remove any default margin/padding from body in all browsers */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Just a tiny global reset for links and buttons */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+}
